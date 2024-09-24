@@ -31,5 +31,5 @@ select avg(pro_price) as Average_Price from products;
 
 
 ```sql
-select count(pro_id) as Total_Row from products;
+select sum(pro_price) as Total_Price from products;
 ```
